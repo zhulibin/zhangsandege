@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FireFlyAutomation" >
+ <parameter name="TestData" value="\src\tools\test.properties" />
+ 
+<test name="practice4" preserve-order="true">
+	<classes>
+		<class name="com.selenium.Glen.practice4.Practice1OnTestNg"></class>
+	</classes>
+</test>
+</suite>
